@@ -2,14 +2,14 @@ num_list = []
 finished = 'n'
 
 
-def int_list():
-    num1 = input("Enter an number: ")
-    num_list(num1)
+while True:
+    print('Enter a number: (blank to quit)')
+    num = input()
+    if num == '':
+        break
+    else:
+        
     
-    
-while (finished == 'n'):
-    int_list()
-    finished = input("Are you finished entering numbers?: ")
 
 
 #print(sum(num_list))
